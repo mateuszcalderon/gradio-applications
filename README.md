@@ -13,10 +13,12 @@ def replace(text):
     return text.replace('World', 'Gradio')
 ```
 
-It also includes the interface object and its components. Here both input and output were defined as 'textbox'.
+It also includes the interface object and its components. Here both input and output were defined as ` textbox `.
 <br/> The ` .launch() ` method runs a web application that lets us interact with the function we have wrapped in the Gradio interface object.
 ```python
 gr.Interface(fn=replace,
              inputs='textbox',
              outputs='textbox').launch()
 ```
+
+Running locally at: http://127.0.0.1:7860.
