@@ -1,9 +1,19 @@
-### What is Gradio?
+<div align="center">
+  <h1>Gradio Applications</h1>
+</div>
+
+## What is Gradio?
 Gradio is a open-source Python library that allows you to quickly create and share interactive user interfaces for machine learning models, data science workflows, or any Python function.
 
-### Getting Started
+## Installation:
 To start you Gradio projects first you need a Python 3.10 or higher.
 <br/> Gradio documentation recommends installing the library using ` pip ` in your terminal or command prompt. Just run ` pip install gradio ` on it and you will be able to code!
+
+## Development Environment:
+This project was developed using the following tools and versions:
+  - Gradio: 5.5.0
+  - PyCharm: 2024.2.1 (Community Edition)
+  - Python: 3.12.6
 
 1. [Hello World](https://github.com/mateuszcalderon/gradio-applications/blob/main/hello_gradio.py)
 <br/> My first 'Hello World' using gradio! Or should we say 'Hello Gradio'?
